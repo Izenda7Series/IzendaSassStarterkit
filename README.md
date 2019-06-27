@@ -6,11 +6,11 @@ The starter kit demonstrates how to custom SASS of Izenda BI 7 Series.
 2. Extract and copy files from the SASS.zip into static folder.
 
 ## Getting Started
-1. Pull packages by run 'yarn' or 'npm install' from command line.
+1. Pull packages by run yarn from command line.
 
 2. Alter SASS source code in the static folder.
 
-3. Run 'yarn build:dev' (or 'npm build:prod' for production quality) to compile.
+3. Run 'yarn build:dev' (or 'yarn build:prod' for production quality) to compile.
 
 4. Your result is located in dist/development (or dist/production) folder. Please ignore tempEntryPoint.js(.map) files.
 
