@@ -2,18 +2,30 @@
 The starter kit demonstrates how to custom SASS of Izenda BI 7 Series.
 
 ## Prerequisites
-1. Download SASS.zip from the downloads page (https://downloads.izenda.com/).
-2. Extract and copy files from the SASS.zip into static folder.
+
+1. Installed NodeJs version 8.0+
+2. Download SASS.zip package from the downloads page (https://downloads.izenda.com/).
+3. Extract and copy files from the SASS.zip into static folder.
 
 ## Getting Started
-1. Pull packages by run yarn from command line.
+1. Run the command to install all NodeJS depependency packages
 
-2. Alter SASS source code in the static folder.
+    ```
+    npm install
+    ```
 
-3. Run 'yarn build:dev' (or 'yarn build:prod' for production quality) to compile.
+2. Run the command to compile the Sass package
 
-4. Your result is located in dist/development (or dist/production) folder. Please ignore tempEntryPoint.js(.map) files.
+    For development, the following command generates unminified css file
 
-## Known Issue
-1. From Izenda v3.1.0 to v3.2.0, we have an issue with @blueprintjs/datetime v3.8.0 package, this package is needed to install manually into the Izenda SASS Starter Kit.
-From Izenda v3.3.0, this issue is resolved by Izenda.
+    ```
+    npm run build:dev
+    ```
+
+    For production, the following command generates minified css file
+
+    ```
+    npm run build:prod
+    ```
+
+3. Your result is located in dist/development (or dist/production) folder. Please ignore tempEntryPoint.js(.map) files.

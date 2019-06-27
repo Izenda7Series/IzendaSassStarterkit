@@ -25,5 +25,8 @@
     "webpack-cli": "3.3.5",
     "webpack-config": "7.5.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@blueprintjs/core": "^3.16.2",
+    "@blueprintjs/datetime": "^3.10.0"
+  }
 }
